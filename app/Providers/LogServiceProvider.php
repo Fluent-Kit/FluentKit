@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace FluentKit\Providers;
 
 use Log;
 use Illuminate\Support\ServiceProvider;

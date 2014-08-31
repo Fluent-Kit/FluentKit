@@ -1,25 +1,25 @@
-<?php namespace App\Console;
+<?php namespace FluentKit\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
-class InspireCommand extends Command {
+class TestCommand extends Command {
 
 	/**
 	 * The console command name.
 	 *
 	 * @var string
 	 */
-	protected $name = 'inspire';
+	protected $name = 'test';
 
 	/**
 	 * The console command description.
 	 *
 	 * @var string
 	 */
-	protected $description = 'Display an inpiring quote';
+	protected $description = 'Runs PHPunit tests';
 
 	/**
 	 * Create a new command instance.
@@ -38,7 +38,7 @@ class InspireCommand extends Command {
 	 */
 	public function fire()
 	{
-		$this->comment(PHP_EOL.Inspiring::quote().PHP_EOL);
+		system('php vendor/bin/phpunit --verbose');
 	}
 
 }

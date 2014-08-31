@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'root' => 'App\\',
+	'root' => 'FluentKit\\',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -26,14 +26,14 @@ return [
 	|
 	*/
 
-	'console' => 'App\Console\\',
+	'console' => 'FluentKit\Console\\',
 
-	'controllers' => 'App\Http\Controllers\\',
+	'controllers' => 'FluentKit\Http\Controllers\\',
 
-	'filters' => 'App\Http\Filters\\',
+	'filters' => 'FluentKit\Http\Filters\\',
 
-	'providers' => 'App\Providers\\',
+	'providers' => 'FluentKit\Providers\\',
 
-	'requests' => 'App\Http\Requests\\',
+	'requests' => 'FluentKit\Http\Requests\\',
 
 ];

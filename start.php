@@ -164,9 +164,9 @@ $app->bindInstallPaths([
 	*/
 
 	'console' => __DIR__.'/app/Console',
-	'config' => __DIR__.'/app/config',
+	'config' => __DIR__.'/config',
 	'controllers' => __DIR__.'/app/Http/Controllers',
-	'database' => __DIR__.'/app/database',
+	'database' => __DIR__.'/database',
 	'filters' => __DIR__.'/app/Http/Filters',
 	'lang' => __DIR__.'/resources/lang',
 	'providers' => __DIR__.'/app/Providers',

@@ -1,4 +1,4 @@
-<?php namespace App\Http\Filters;
+<?php namespace FluentKit\Http\Filters;
 
 use Auth;
 

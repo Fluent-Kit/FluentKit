@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace FluentKit\Providers;
 
 use App, URL;
 use Illuminate\Routing\RouteServiceProvider as ServiceProvider;

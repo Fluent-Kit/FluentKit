@@ -14,5 +14,9 @@ return [
 	*/
 
 	'debug' => true,
+    
+    'providers' => append_config([
+        'Barryvdh\Debugbar\ServiceProvider',
+    ])
 
 ];
