@@ -22,7 +22,6 @@ before_script:
   - travis_retry composer self-update
   - travis_retry composer install --prefer-source --no-interaction --dev
   - travis_retry bower install -f
-  - travis_retry grunt
 
 script: php artisan test
 
