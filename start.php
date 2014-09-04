@@ -11,7 +11,7 @@
 |
 */
 if(defined('LARAVEL_START'))
-    return;
+    return app();
 
 define('LARAVEL_START', microtime(true));
 
