@@ -15,6 +15,8 @@ before_script:
   - mysql -e 'create database homestead;'
   - travis_retry find storage -type d -exec chmod 777 {} \;
   - travis_retry find storage -type f -exec chmod 777 {} \;
+  - travis_retry npm install -g grunt-cli
+  - travis_retry npm install -g bower
   - travis_retry composer self-update
   - travis_retry composer install --prefer-source --no-interaction --dev
   - travis_retry bower install -f
