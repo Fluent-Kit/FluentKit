@@ -22,8 +22,9 @@ before_script:
   - travis_retry composer self-update
   - travis_retry composer install
   - travis_retry bower install -f
+  - travis_retry php artisan clear-compiled
 
-script: php artisan test
+script: php artisan --env=local test
 
 matrix:
   allow_failures:
