@@ -17,6 +17,7 @@ before_script:
   - travis_retry find storage -type f -exec chmod 777 {} \;
   - travis_retry npm install -g
   - travis_retry npm install -g bower
+  - travis_retry npm install -g grunt-cli
   - travis_retry npm install -g grunt
   - travis_retry composer self-update
   - travis_retry composer install --prefer-source --no-interaction --dev
