@@ -1,4 +1,4 @@
-<?php namespace FluentKit\Console;
+<?php namespace FluentKit\Console\Local;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

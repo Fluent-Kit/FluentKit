@@ -16,6 +16,7 @@ return [
 	'debug' => true,
     
     'providers' => append_config([
+        'FluentKit\Providers\Local\ArtisanServiceProvider',
         'Barryvdh\Debugbar\ServiceProvider',
     ])
 

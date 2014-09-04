@@ -1,4 +1,4 @@
-<?php namespace FluentKit\Providers;
+<?php namespace FluentKit\Providers\Local;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class ArtisanServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//$this->commands('FluentKit\Console\TestCommand');
+		$this->commands('FluentKit\Console\Local\TestCommand');
 	}
 
 }
