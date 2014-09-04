@@ -12,7 +12,7 @@ class LogServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		Log::useFiles(storage_path().'/logs/laravel.log');
+		Log::useFiles(storage_path().'/logs/fluentkit.log');
 	}
 
 	/**

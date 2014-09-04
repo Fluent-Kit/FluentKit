@@ -1,6 +1,5 @@
 <?php namespace FluentKit\Providers;
 
-use InspireCommand;
 use Illuminate\Support\ServiceProvider;
 
 class ArtisanServiceProvider extends ServiceProvider {

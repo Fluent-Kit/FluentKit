@@ -1,0 +1,30 @@
+{
+  "name": "fluentkit",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FluentKit/FluentKit",
+  "authors": [
+    "Lee Mason <contact@nohalfpixels.com>"
+  ],
+  "main": "index.php",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "content/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "angularjs": "~1.2.23",
+    "bootstrap": "~3.2.0",
+    "fontawesome": "~4.2.0",
+    "animate.css": "~3.2.0",
+    "Chart.js": "~0.2.0",
+    "ace": "~1.1.6",
+    "respond": "~1.4.2",
+    "html5shiv": "~3.7.2"
+  }
+}

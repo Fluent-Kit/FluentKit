@@ -1,0 +1,25 @@
+{
+  "name": "fluentkit",
+  "version": "1.0.0",
+  "description": "FluentKit =========",
+  "main": "index.php",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "php artisan test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FluentKit/FluentKit.git"
+  },
+  "author": "Lee Mason <contact@nohalfpixels.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FluentKit/FluentKit/issues"
+  },
+  "homepage": "https://github.com/FluentKit/FluentKit",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
