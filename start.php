@@ -10,8 +10,10 @@
 | loading of any our classes "manually". Feels great to relax.
 |
 */
-if(!defined('LARAVEL_START'))
-    define('LARAVEL_START', microtime(true));
+if(defined('LARAVEL_START'))
+    return;
+
+define('LARAVEL_START', microtime(true));
 
 /*
 |--------------------------------------------------------------------------
