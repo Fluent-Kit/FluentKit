@@ -23,8 +23,8 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"find storage -type d -exec chmod 777 {} \;",
-			"find storage -type f -exec chmod 777 {} \;",
+			"find storage -type d -exec chmod 777 {} \\;",
+			"find storage -type f -exec chmod 777 {} \\;",
 			"npm install -g grunt-cli",
 			"npm install",
 			"bower install",
