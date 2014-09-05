@@ -22,7 +22,7 @@ before_script:
   - travis_retry bower install
   - travis_retry grunt
   - travis_retry php artisan clear-compiled
-  - travis_retry php artisan optimize
+  - travis_retry php artisan --env=local optimize
 
 script: php artisan test
 
