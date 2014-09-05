@@ -1,0 +1,10 @@
+{
+  "name": "Clients Plugin",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FluentKit/FluentKit",
+  "authors": [
+    "Lee Mason <contact@nohalfpixels.com>"
+  ],
+  "license": "MIT",
+  "providers": []
+}

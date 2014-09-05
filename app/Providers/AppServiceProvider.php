@@ -31,19 +31,9 @@ class AppServiceProvider extends ServiceProvider {
             return new Filter();
         });
         
-        
-        $app = $this->app;
-        $app['router']->get('/test', function() use ($app){
-            $filter = $app['fluentkit.filter'];
-        
-            $filter->add('test2.filter', function($value){
-                return $value;
-            }, 100, 'unique_id');
-            
-            
-            
-            dd($filter->apply('test2.filter', ['original value', 'second value', 5, false]));
-        });
+        $this->app['path.resources'] = $this->app['path.public'] . '/resources';
+        $this->app['path.plugins'] = $this->app['path.resources'] . '/plugins';
+        $this->app['path.themes'] = $this->app['path.resources'] . '/themes';
 	}
 
 }

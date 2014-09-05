@@ -129,8 +129,9 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
         
-        //loaded after view provider to overwrite
+        //loaded after laravel due to overwritting
         'FluentKit\Providers\ThemeServiceProvider',
+        'FluentKit\Providers\PluginServiceProvider',
 
 	],
 
@@ -192,6 +193,7 @@ return [
         
         
         'Theme'     => 'FluentKit\Foundation\Theme\Facade',
+        'Plugin'    => 'FluentKit\Foundation\Plugin\Facade',
 
 	],
 
