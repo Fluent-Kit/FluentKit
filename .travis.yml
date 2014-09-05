@@ -17,7 +17,7 @@ before_script:
   - mysql -e 'GRANT ALL PRIVILEGES ON *.* TO "homestead"@"localhost" WITH GRANT OPTION;' -uroot
   - travis_retry composer self-update
   - travis_retry composer install
-  - travis_retry php artisan migrate
+  - travis_retry php artisan --env=local migrate
 
 script: php artisan --env=local test
 
