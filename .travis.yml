@@ -22,9 +22,9 @@ before_script:
   - travis_retry bower install
   - travis_retry grunt
   - travis_retry php artisan clear-compiled
-  - travis_retry php artisan --env=local optimize
+  - travis_retry php artisan optimize
 
-script: php artisan test
+script: php artisan --env=local test
 
 matrix:
   allow_failures:
