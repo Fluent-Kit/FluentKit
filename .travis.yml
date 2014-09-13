@@ -19,7 +19,7 @@ before_script:
   - travis_retry composer install
   - travis_retry php artisan --env=local migrate
 
-script: php artisan --env=local test
+script: phpunit
 
 matrix:
   allow_failures:
